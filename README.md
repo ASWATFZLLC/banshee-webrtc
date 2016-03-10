@@ -1,13 +1,12 @@
-To install on Mac
+# Installation
 
-brew install npm
-
+```
+git clone https://github.com/ASWATFZLLC/banshee-webrtc
+cd banshee-webrtc
 npm install -g grunt grunt-cli bower
-
-cd verto_communicator
 npm install
 bower install
 grunt serve
+```
 
-to Install on Debian 8
-./debian8_install.sh
+
