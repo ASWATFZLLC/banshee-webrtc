@@ -899,7 +899,7 @@ vertoService.service('verto', ['$rootScope', '$cookieStore', '$location', 'stora
        */
       testSpeed: function(cb) {
 
-        data.instance.rpcClient.speedTest(1024 * 256, function(e, data) {
+        data.instance.rpcClient.speedTest(1024 * 1, function(e, data) {
           var upBand = Math.ceil(data.upKPS * .75),
               downBand = Math.ceil(data.downKPS * .75);
 
